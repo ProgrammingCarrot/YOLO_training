@@ -8,6 +8,11 @@ dependencies = [
     "ultralytics>=8.3.166",
     "torch>=2.7.0",
     "torchvision>=0.22.0",
+    "numpy>=2.2.6",
+    "opencv-contrib-python>=4.11.0.86",
+    "opencv-python>=4.11.0.86",
+    "onnx>=1.18.0",
+    "onnxruntime-gpu>=1.22.0",
 ]
 
 [[tool.uv.index]]
