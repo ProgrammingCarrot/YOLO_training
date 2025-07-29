@@ -3,7 +3,7 @@ import re
 
 # --- 請修改此處的路徑 ---
 # 指向您「驗證集」的標籤資料夾 (e.g., 'dataset/labels/val')
-path_to_labels = 'dataset/valid/labels' 
+path_to_labels = 'rack_dataset/valid/labels' 
 # -----------------------
 
 problematic_files = []
