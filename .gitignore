@@ -10,7 +10,7 @@ wheels/
 .venv
 
 # dataset
-dataset
+dataset*
 rack_dataset
 test_media
 
@@ -19,3 +19,4 @@ runs
 models
 *.pt
 log
+*.xlsx

@@ -57,7 +57,7 @@ if __name__ == "__main__":
                 resume=True,
                 val=False,
                 plots=False,
-                save=False,
+                save=True,
                 optimizer="AdamW"
             )
         

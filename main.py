@@ -23,7 +23,7 @@ def train(dataset,lr0,lrf,momentum):
     
 if __name__ == "__main__":
     path = "dataset/data.yaml"
-    lr0_value = sys.argv[1]
-    lrf_value = sys.argv[2]
-    momentum = sys.argv[3]
+    lr0_value = float(sys.argv[1])
+    lrf_value = float(sys.argv[2])
+    momentum = float(sys.argv[3])
     train(path,lr0_value,lrf_value,momentum)
